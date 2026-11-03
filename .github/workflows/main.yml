@@ -24,3 +24,9 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew assembleRelease || gradle assembleRelease || true
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: BurmaldaMarket-APK
+        path: "**/build/outputs/apk/**/*.apk"
