@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Opera Mini",
+    "version": "7.5.4",
+    "min_android": "1.5",
+    "description": "Легкий браузер для экономии трафика. Отлично работает на старых устройствах.",
+    "apk_url": "https://githubusercontent.com"
+  },
+  {
+    "id": 2,
+    "title": "VKontakte Old",
+    "version": "3.10",
+    "min_android": "2.2",
+    "description": "Старая версия ВК, которая не тормозит.",
+    "apk_url": "https://githubusercontent.com"
+  }
+]
