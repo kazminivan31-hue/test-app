@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://android.com"
+    package="com.oldmarket.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- Разрешаем приложению выходить в интернет для скачивания приложений -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="BurmaldaMarket"
+        android:icon="@android:drawable/sym_def_app_icon" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="BurmaldaMarket" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
